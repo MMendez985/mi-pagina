@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Martín Méndez - Consultor en Comunicación Política. Asesoramiento estratégico, redacción de discursos, manejo de prensa y optimización de redes sociales para políticos y periodistas.">
+    <meta name="keywords" content="asesor político, comunicación estratégica, discurso político, consultor de imagen, La Matanza, redacción de discursos, estrategia digital">
+    <title>Martín Méndez | Consultor en Comunicación Política</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-float:hover {
+            background-color: #128C7E;
+            transform: scale(1.1);
+        }
+        
+        .social-icon {
+            transition: all 0.3s;
+        }
+        
+        .social-icon:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5491157359906ass="whatsapp-float" target="_blan">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="font-semibold text-gray-800 text-xl">Martín Méndez</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#inicio" class="py-4 px-2 text-blue-600 font-medium border-b-4 border-blue-600">Inicio</a>
+                    <a href="#servicios" class="py-4 px-2 text-gray-500 font-medium hover:text-blue-600 transition duration-300">Servicios</a>
+                    <a href="#sobre-mi" class="py-4 px-2 text-gray-500 font-medium hover:text-blue-600 transition duration-300">Sobre mí</a>
+                    <a href="#contacto" class="py-4 px-2 text-gray-500 font-medium hover:text-blue-600 transition duration-300">Contacto</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class=" w-6 h-6 text-gray-500 hover:text-blue-600 "
+                            x-show="!showMenu"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu">
+            <ul>
+                <li><a href="#inicio" class="block text-sm px-2 py-4 bg-blue-600 text-white">Inicio</a></li>
+                <li><a href="#servicios" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white transition duration-300">Servicios</a></li>
+                <li><a href="#sobre-mi" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white transition duration-300">Sobre mí</a></li>
+                <li><a href="#contacto" class="block text-sm px-2 py-4 hover:bg-blue-600 hover:text-white transition duration-300">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-gradient py-20 md:py-32">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+                        <span class="text-blue-600">Comunicar con estrategia</span><br>
+                        es liderar con resultados
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Asesoramiento estratégico en comunicación política para dirigentes, equipos de campaña y periodistas.
+                    </p>
+                    <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 inline-block">
+                        Contactar ahora
+                    </a>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <img src="https://scontent.faep8-1.fna.fbcdn.net/v/t51.75761-15/491432668_18099893272523534_1833480924286900889_n.webp?stp=dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHrT06EAOIFrYamNnEbLm_s2iaJdGYrRGfaJol0ZitEZ-Jahg6T3Deh6D2CYSyG-pym0nR_iowWEMmpXAXZD4Rv&_nc_ohc=xbS8r8VaNYwQ7kNvwHIgBq9&_nc_oc=AdlyhRq5IgeVvSAW8Nl3DNlqYCu2eyQug_jRv31DLWL9ReAQj_xN5t5OaLBNPT36YRU&_nc_zt=23&_nc_ht=scontent.faep8-1.fna&_nc_gid=B7hwr0lW7Upi13vQCKMwjQ&oh=00_AfI1TscKmwh_Gfjvh4WiIEZZp6DnmxIiKQjvyhHIFsWthQ&oe=68206F60" 
+                             alt="Martín Méndez - Consultor en Comunicación Política" 
+                             class="rounded-lg shadow-2xl w-full max-w-md border-4 border-white">
+                        <div class="absolute -bottom-5 -right-5 bg-blue-600 text-white px-4 py-2 rounded-full font-bold">
+                            +15 años de experiencia
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Sobre Martín Méndez</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Especialista en comunicación estratégica con trayectoria en el sector público y privado.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <p class="text-lg text-gray-600 mb-6">
+                        Consultor en Comunicación Política con amplia experiencia en Volkswagen Argentina y como periodista estratégico. 
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Mi enfoque combina el conocimiento del ámbito político con las técnicas más efectivas de comunicación, ayudando a mis clientes a transmitir sus mensajes con claridad, impacto y resultados.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        He trabajado con dirigentes políticos, equipos de campaña y periodistas, desarrollando estrategias de comunicación adaptadas a cada contexto y objetivo.
+                    </p>
+                </div>
+                <div class="md:w-1/2 bg-gray-100 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-6 text-blue-600">Experiencia destacada</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-bold text-lg">Volkswagen Argentina</h4>
+                            <p class="text-gray-600">Desarrollo de estrategias de comunicación corporativa y relaciones institucionales.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">Asesoría Política</h4>
+                            <p class="text-gray-600">Redacción de discursos y estrategias de comunicación para candidatos y funcionarios.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">Periodismo Estratégico</h4>
+                            <p class="text-gray-600">Análisis y cobertura de procesos políticos con enfoque en comunicación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Servicios Profesionales</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Soluciones estratégicas de comunicación adaptadas a tus necesidades políticas e institucionales.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md service-card transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-bullhorn text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Asesoramiento Estratégico</h3>
+                    <p class="text-gray-600">
+                        Desarrollo de planes integrales de comunicación política, posicionamiento de imagen y manejo de crisis. Análisis de audiencias y mensajes clave.
+                    </p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md service-card transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-scroll text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Redacción de Discursos</h3>
+                    <p class="text-gray-600">
+                        Elaboración de discursos políticos efectivos, adaptados al orador y contexto. Mensajes claros, persuasivos y memorables para cada ocasión.
+                    </p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md service-card transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-microphone-alt text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Entrenamiento en Oratoria</h3>
+                    <p class="text-gray-600">
+                        Capacitación personalizada para hablar en público con seguridad y convicción. Técnicas de persuasión, manejo de medios y comunicación no verbal.
+                    </p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-white p-8 rounded-lg shadow-md service-card transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-newspaper text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Manejo de Prensa</h3>
+                    <p class="text-gray-600">
+                        Relaciones con medios, preparación de entrevistas y gestión de la agenda mediática. Desarrollo de estrategias para maximizar cobertura positiva.
+                    </p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="bg-white p-8 rounded-lg shadow-md service-card transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-hashtag text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Estrategia Digital</h3>
+                    <p class="text-gray-600">
+                        Planes de comunicación digital para campañas políticas e instituciones. Gestión de redes sociales, community management y publicidad online.
+                    </p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="bg-white p-8 rounded-lg shadow-md service-card transition duration-300">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-pen-fancy text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Contenido para Redes</h3>
+                    <p class="text-gray-600">
+                        Creación de contenido político estratégico para redes sociales. Piezas gráficas, videos y copywriting adaptado a cada plataforma y audiencia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Clientes y Colaboradores</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Lo que dicen quienes han trabajado conmigo
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">
+                        "Martín transformó nuestra comunicación política. Sus discursos capturan perfectamente nuestro mensaje y su asesoramiento estratégico fue clave para nuestra campaña."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="font-bold">Juan Pérez</div>
+                        <div class="text-gray-500 text-sm ml-2">Asesor de campaña Partido de Tigre
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-6">
+                        "Los entrenamientos en oratoria de Martín son excepcionales. En pocas sesiones logré mejorar significativamente mi capacidad para comunicar ideas complejas de manera clara y persuasiva."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="font-bold">María González</div> 
+
+            .          Asesora de<div class="text-ray-500 text-sm ml-2">Diputada Nacional</div
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-20 bg-blue-600 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Contacto</h2>
+                <div class="w-20 h-1 bg-white mx-auto mb-6"></div>
+                <p class="text-xl max-w-3xl mx-auto">
+                    ¿Listo para transformar tu comunicación política? Contáctame para una consultoría personalizada.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h3 class="text-2xl font-bold mb-6">Información de contacto</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Ubicación</h4>
+                                <p>Buenos Aires, Argentina</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="mr-4 mt-1">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Email</h4>
+                                <p>mmendezcomunicaciones@gmail.com
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="mr-4 mt-1">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Teléfono</h4>
+                                <p>+54 11 5735-9906
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold mt-12 mb-6">Redes Sociales</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="social-icon bg-white text-blue-600 w-10 h-10 rounded-full flex items-center justify-center">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon bg-white text-blue-600 w-10 h-10 rounded-full flex items-center justify-center">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon bg-white text-blue-600 w-10 h-10 rounded-full flex items-center justify-center">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon bg-white text-blue-600 w-10 h-10 rounded-full flex items-center justify-center">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 bg-white rounded-lg p-8 shadow-lg">
+                    <h3 class="text-2xl font-bold mb-6 text-gray-800">Formulario de contacto</h3>
+                    <form id="contactForm" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Nombre completo</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" required>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Mensaje</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent" required></textarea>
+                        </div>
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 w-full">
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Martín Méndez</h3>
+                    <p class="text-gray-400">
+                        Consultor especializado en comunicación política, estrategias de discurso y manejo de imagen para líderes políticos e instituciones.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Enlaces rápidos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#inicio" class="text-gray-400 hover:text-white transition duration-300">Inicio</a></li>
+                        <li><a href="#servicios" class="text-gray-400 hover:text-white transition duration-300">Servicios</a></li>
+                        <li><a href="#sobre-mi" class="text-gray-400 hover:text-white transition duration-300">Sobre mí</a></li>
+                        <li><a href="#contacto" class="text-gray-400 hover:text-white transition duration-300">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Newsletter</h3>
+                    <p class="text-gray-400 mb-4">
+                        Suscríbete para recibir insights sobre comunicación política y estrategias efectivas.
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="Tu email" class="px-4 py-2 rounded-l-lg focus:outline-none text-gray-800 w-full">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-lg transition duration-300">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400">
+                    © 2023 Martín Méndez. Todos los derechos reservados.
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300 social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300 social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300 social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300 social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const btn = document.querySelector(".mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // Here you would typically send the form data to a server
+            // For this example, we'll just show an alert
+            alert(`Gracias ${name}, tu mensaje ha sido enviado. Me pondré en contacto contigo pronto.`);
+            
+            // Reset form
+            this.reset();
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (!menu.classList.contains('hidden')) {
+                        menu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=Mendezmartinok/oficial" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
